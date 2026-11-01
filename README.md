@@ -29,9 +29,6 @@ ShopEase is a responsive e-commerce web application built using React and Tailwi
 
 https://shopeasedotcom.netlify.app
 
-## 📌 Note
-
-Product data is stored using browser LocalStorage. Therefore, product changes persist in the same browser but are not synchronized across different users or devices.
 
 ---
 

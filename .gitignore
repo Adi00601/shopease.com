@@ -1,8 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
 # Logs
-logs
-*.log
 npm-debug.log*
 yarn-debug.log*
+<<<<<<< HEAD
 yarn-error.log*
 <<<<<<< HEAD
 pnpm-debug.log*
@@ -25,10 +36,15 @@ dist-ssr
 *.sw?
 =======
 lerna-debug.log*
+=======
+pnpm-debug.log*
+>>>>>>> b9ad161ec954f4b1e77589dd9bb2ffec10ab47c9
 
-# Diagnostic reports (https://nodejs.org/api/report.html)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+# Editor files
+.vscode/
+.idea/
 
+<<<<<<< HEAD
 # Runtime data
 pids
 *.pid
@@ -168,3 +184,8 @@ vite.config.ts.timestamp-*
 # Turbo Repo
 .turbo
 >>>>>>> 950daad5c1384e5ecdfa9f325e1bfef886b7a6e5
+=======
+# OS files
+.DS_Store
+Thumbs.db
+>>>>>>> b9ad161ec954f4b1e77589dd9bb2ffec10ab47c9
